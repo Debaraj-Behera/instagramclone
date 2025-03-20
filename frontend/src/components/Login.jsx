@@ -30,7 +30,7 @@ export default function Login() {
     try {
       setIsLoading(true);
       const res = await axios.post(
-        "http://localhost:8000/api/v1/user/login",
+        "https://instagramclone-2-jfjk.onrender.com/api/v1/user/login",
         input,
         {
           headers: {

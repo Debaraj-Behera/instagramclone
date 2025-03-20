@@ -109,7 +109,7 @@ export default function Post({ post }) {
   const bookmarkHandler = async () => {
     try {
       const res = await axios.get(
-        `http://localhost:8000/api/v1/post/${post?._id}/bookmark`,
+        `https://instagramclone-2-jfjk.onrender.com/api/v1/post/${post?._id}/bookmark`,
         { withCredentials: true }
       );
 

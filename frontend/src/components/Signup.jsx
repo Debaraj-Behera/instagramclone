@@ -26,7 +26,7 @@ export default function Signup() {
     try {
         setIsLoading(true);
       const res = await axios.post(
-        "http://localhost:8000/api/v1/user/register",
+        "https://instagramclone-2-jfjk.onrender.com/api/v1/user/register",
         input,
         {
           headers: {
